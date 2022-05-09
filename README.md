@@ -22,6 +22,8 @@ Mecanica
 La idea es agendar una llamada para que puedas contarnos qué pudiste hacer, problemas con los que te encontraste, etc.
 Durante ese período, nos poder pasar dudas o consultas.
 
+I have choosed Auth0 as authentication method.
+
 # Steps followed from here: 
 https://www.youtube.com/watch?v=w6jnDjp5czg
 
