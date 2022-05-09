@@ -22,7 +22,8 @@ Mecanica
 La idea es agendar una llamada para que puedas contarnos qué pudiste hacer, problemas con los que te encontraste, etc.
 Durante ese período, nos poder pasar dudas o consultas.
 
-# Steps followed from here: https://www.youtube.com/watch?v=w6jnDjp5czg
+# Steps followed from here: 
+https://www.youtube.com/watch?v=w6jnDjp5czg
 
 #  Encounters:
 Error:
@@ -43,7 +44,8 @@ To:
 
 # All working, let's add Compose.
 
-# For compouse I have  followed this tutorial: https://www.youtube.com/watch?v=3xDAU5cvi5E
+# For compouse I have  followed this tutorial: 
+https://www.youtube.com/watch?v=3xDAU5cvi5E
 
 # Encounters:
 
