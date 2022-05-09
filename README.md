@@ -56,8 +56,8 @@ The files aren't real-time sync
 # New Error:
  => ERROR [build 6/6] RUN npm run build                                                                                                                                                       9.8s 
  > [build 6/6] RUN npm run build:
-14 0.450
-14 0.450 > auth0-example@0.1.0 build
+14 0.450/
+14 0.450 > auth0-example@0.1.0 build/
 14 0.450 > react-scripts build
 14 0.450
 14 1.230 Creating an optimized production build...
