@@ -1,5 +1,7 @@
 #  Auth0 React - Identicum 🔐
 
+<img align="center" alt="GIF" src="https://github.com/GuidoFavara/t_.gif?raw=true" width="500" height="320" />
+
 Introducción
 
 La idea de este ejercicio es replicar algunos tipos de tecnologías con las que trabajamos, y un típico proceso de laboratorio para armar con tiempo y Googleando.
