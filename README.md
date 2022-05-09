@@ -1,6 +1,6 @@
 #  Auth0 React - Identicum 🔐
 
-<img align="center" alt="GIF" src="https://github.com/GuidoFavara/t_.gif?raw=true" width="500" height="320" />
+<img align="center" alt="GIF" src="https://github.com/GuidoFavara/react-auth0-main-IdenticumTest/blob/master/2022-05-09-15-07-37.gif?raw=true" width="500" height="320" />
 
 Introducción
 
