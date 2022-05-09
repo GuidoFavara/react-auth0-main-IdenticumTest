@@ -47,22 +47,22 @@ To:
 
 # Encounters:
 
-#The files aren't real-time sync
+The files aren't real-time sync
  Tried cmd instead of powershell, it didn't work .env file + compose should fix it
 # New Error:
  => ERROR [build 6/6] RUN npm run build                                                                                                                                                       9.8s 
  > [build 6/6] RUN npm run build:
-#14 0.450
-#14 0.450 > auth0-example@0.1.0 build
-#14 0.450 > react-scripts build
-#14 0.450
-#14 1.230 Creating an optimized production build...
-#14 9.783 Failed to compile.
-#14 9.783
-#14 9.783 Error: error:0308010C:digital envelope routines::unsupported
-#14 9.783     at String.replace (<anonymous>)
-#14 9.783
-#14 9.783
+14 0.450
+14 0.450 > auth0-example@0.1.0 build
+14 0.450 > react-scripts build
+14 0.450
+14 1.230 Creating an optimized production build...
+14 9.783 Failed to compile.
+14 9.783
+14 9.783 Error: error:0308010C:digital envelope routines::unsupported
+14 9.783     at String.replace (<anonymous>)
+14 9.783
+14 9.783
 
  Tried changing the Node Version and it didn't work
  Followed: https://stackoverflow.com/questions/47008159/how-to-downgrade-node-version
@@ -76,9 +76,9 @@ FROM node:16-alpine3.12
 
 I have only included node:16 and it worked.
 
-# This can be runned with 
-# docker-compose -f docker-compose.yml -f  docker-compose-prod.yml up -d --build
-# That command will run on port 3000
-# or
-# docker-compose -f docker-compose.yml -f  docker-compose-dev.yml up -d --build
-# This command will run on port 8080
+ This can be runned with 
+ docker-compose -f docker-compose.yml -f  docker-compose-prod.yml up -d --build
+ That command will run on port 3000
+ or
+ docker-compose -f docker-compose.yml -f  docker-compose-dev.yml up -d --build
+ This command will run on port 8080
