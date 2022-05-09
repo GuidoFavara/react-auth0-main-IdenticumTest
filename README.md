@@ -29,13 +29,14 @@ https://www.youtube.com/watch?v=w6jnDjp5czg
 
 #  Encounters:
 Error:./
-  => ERROR [3/5] COPY pakcage.json ./  0.0s 
-  failed to compute cache key: "/pakcage.json" not found: not found
-  Solution: https://stackoverflow.com/questions/65282627/how-to-solve-the-error-in-package-json-when-creating-an-image
-  COPY ["package*.json","./"]
-Error:
- Module build failed (from ./node_modules/html-loader/dist/cjs.js):
- Solution: https://stackoverflow.com/questions/60801331/module-build-failed-from-node-modules-html-loader-dist-cjs-js
+  => ERROR [3/5] COPY pakcage.json ./  0.0s   
+  failed to compute cache key: "/pakcage.json" not found: not found  
+  Solution: https://stackoverflow.com/questions/65282627/how-to-solve-the-error-in-package-json-when-creating-an-image  
+  COPY ["package*.json","./"]  
+Error:  
+ Module build failed (from ./node_modules/html-loader/dist/cjs.js):  
+ Solution: https://stackoverflow.com/questions/60801331/module-build-failed-from-node-modules-html-loader-dist-cjs-js  
+ 
 # Solved with:
 "start": "react-scripts start"
 To:
