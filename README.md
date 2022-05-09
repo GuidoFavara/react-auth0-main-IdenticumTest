@@ -54,7 +54,8 @@ https://www.youtube.com/watch?v=3xDAU5cvi5E
 
 The files aren't real-time sync  
  Tried cmd instead of powershell, it didn't work .env file + compose should fix it  
-# New Error: 
+New Error:  
+
  => ERROR [build 6/6] RUN npm run build                                                                                                                                                         9.8s   
  > [build 6/6] RUN npm run build:  
 14 0.450  
