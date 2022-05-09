@@ -47,7 +47,7 @@ To:
 
 # All working, let's add Compose.  
 
-# For compouse I have  followed this tutorial:  
+For compouse I have  followed this tutorial:  
 https://www.youtube.com/watch?v=3xDAU5cvi5E  
 
 # Encounters:  
