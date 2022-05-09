@@ -28,7 +28,7 @@ I have choosed Auth0 as authentication method.
 https://www.youtube.com/watch?v=w6jnDjp5czg
 
 #  Encounters:
-Error:./
+Error:  
   => ERROR [3/5] COPY pakcage.json ./  0.0s   
   failed to compute cache key: "/pakcage.json" not found: not found  
   Solution: https://stackoverflow.com/questions/65282627/how-to-solve-the-error-in-package-json-when-creating-an-image  
@@ -37,53 +37,53 @@ Error:
  Module build failed (from ./node_modules/html-loader/dist/cjs.js):  
  Solution: https://stackoverflow.com/questions/60801331/module-build-failed-from-node-modules-html-loader-dist-cjs-js  
  
-# Solved with:
-"start": "react-scripts start"
-To:
-"start": "react-scripts --openssl-legacy-provider start"
- delete yarn.lock
- delete node_modules
- npm install & build all again
+# Solved with:  
+"start": "react-scripts start"  
+To:  
+"start": "react-scripts --openssl-legacy-provider start"  
+ delete yarn.lock  
+ delete node_modules  
+ npm install & build all again  
 
-# All working, let's add Compose.
+# All working, let's add Compose.  
 
-# For compouse I have  followed this tutorial: 
-https://www.youtube.com/watch?v=3xDAU5cvi5E
+# For compouse I have  followed this tutorial:  
+https://www.youtube.com/watch?v=3xDAU5cvi5E  
 
-# Encounters:
+# Encounters:  
 
-The files aren't real-time sync
- Tried cmd instead of powershell, it didn't work .env file + compose should fix it
-# New Error:
- => ERROR [build 6/6] RUN npm run build                                                                                                                                                       9.8s 
- > [build 6/6] RUN npm run build:
-14 0.450/
-14 0.450 > auth0-example@0.1.0 build/
-14 0.450 > react-scripts build
-14 0.450
-14 1.230 Creating an optimized production build...
-14 9.783 Failed to compile.
-14 9.783
-14 9.783 Error: error:0308010C:digital envelope routines::unsupported
-14 9.783     at String.replace (<anonymous>)
-14 9.783
-14 9.783
+The files aren't real-time sync  
+ Tried cmd instead of powershell, it didn't work .env file + compose should fix it  
+# New Error: 
+ => ERROR [build 6/6] RUN npm run build                                                                                                                                                         9.8s   
+ > [build 6/6] RUN npm run build:  
+14 0.450  
+14 0.450 > auth0-example@0.1.0 build/  
+14 0.450 > react-scripts build  
+14 0.450  
+14 1.230 Creating an optimized production build...  
+14 9.783 Failed to compile.  
+14 9.783  
+14 9.783 Error: error:0308010C:digital envelope routines::unsupported  
+14 9.783     at String.replace (<anonymous>)  
+14 9.783  
+14 9.783  
 
- Tried changing the Node Version and it didn't work
- Followed: https://stackoverflow.com/questions/47008159/how-to-downgrade-node-version
+ Tried changing the Node Version and it didn't work  
+ Followed: https://stackoverflow.com/questions/47008159/how-to-downgrade-node-version  
 
-# Solution: 
-https://stackoverflow.com/questions/69692842/error-message-error0308010cdigital-envelope-routinesunsupported
+# Solution:  
+https://stackoverflow.com/questions/69692842/error-message-error0308010cdigital-envelope-routinesunsupported  
 
-FROM node:alpine
-You can switch to something like:
-FROM node:16-alpine3.12
+FROM node:alpine  
+You can switch to something like:  
+FROM node:16-alpine3.12  
 
-I have only included node:16 and it worked.
+I have only included node:16 and it worked.  
 
- This can be runned with 
- docker-compose -f docker-compose.yml -f  docker-compose-prod.yml up -d --build
- That command will run on port 3000
- or
- docker-compose -f docker-compose.yml -f  docker-compose-dev.yml up -d --build
- This command will run on port 8080
+ This can be runned with  
+ docker-compose -f docker-compose.yml -f  docker-compose-prod.yml up -d --build  
+ That command will run on port 3000  
+ or  
+ docker-compose -f docker-compose.yml -f  docker-compose-dev.yml up -d --build  
+ This command will run on port 8080  
