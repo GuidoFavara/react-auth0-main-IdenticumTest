@@ -28,7 +28,7 @@ I have choosed Auth0 as authentication method.
 https://www.youtube.com/watch?v=w6jnDjp5czg
 
 #  Encounters:
-Error:
+Error:./
   => ERROR [3/5] COPY pakcage.json ./  0.0s 
   failed to compute cache key: "/pakcage.json" not found: not found
   Solution: https://stackoverflow.com/questions/65282627/how-to-solve-the-error-in-package-json-when-creating-an-image
