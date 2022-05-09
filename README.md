@@ -28,11 +28,11 @@ Durante ese período, nos poder pasar dudas o consultas.
 Error:
   => ERROR [3/5] COPY pakcage.json ./  0.0s 
   failed to compute cache key: "/pakcage.json" not found: not found
-#  Solution: https://stackoverflow.com/questions/65282627/how-to-solve-the-error-in-package-json-when-creating-an-image
+  Solution: https://stackoverflow.com/questions/65282627/how-to-solve-the-error-in-package-json-when-creating-an-image
   COPY ["package*.json","./"]
 Error:
  Module build failed (from ./node_modules/html-loader/dist/cjs.js):
-# Solution: https://stackoverflow.com/questions/60801331/module-build-failed-from-node-modules-html-loader-dist-cjs-js
+ Solution: https://stackoverflow.com/questions/60801331/module-build-failed-from-node-modules-html-loader-dist-cjs-js
 # Solved with:
 "start": "react-scripts start"
 To:
@@ -64,16 +64,17 @@ To:
 #14 9.783
 #14 9.783
 
-# Tried changing the Node Version and it didn't work
-# Followed: https://stackoverflow.com/questions/47008159/how-to-downgrade-node-version
+ Tried changing the Node Version and it didn't work
+ Followed: https://stackoverflow.com/questions/47008159/how-to-downgrade-node-version
 
-# Solution: https://stackoverflow.com/questions/69692842/error-message-error0308010cdigital-envelope-routinesunsupported
+# Solution: 
+https://stackoverflow.com/questions/69692842/error-message-error0308010cdigital-envelope-routinesunsupported
 
-#FROM node:alpine
-#You can switch to something like:
-#FROM node:16-alpine3.12
+FROM node:alpine
+You can switch to something like:
+FROM node:16-alpine3.12
 
-# I have only included node:16 and it worked.
+I have only included node:16 and it worked.
 
 # This can be runned with 
 # docker-compose -f docker-compose.yml -f  docker-compose-prod.yml up -d --build
