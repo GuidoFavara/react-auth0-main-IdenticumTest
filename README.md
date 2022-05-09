@@ -81,7 +81,8 @@ FROM node:16-alpine3.12
 
 I have only included node:16 and it worked.  
 
- This can be runned with  
+ #This can be executed with:  
+ 
  docker-compose -f docker-compose.yml -f  docker-compose-prod.yml up -d --build  
  That command will run on port 3000  
  or  
