@@ -26,9 +26,6 @@ Durante ese período, nos poder pasar dudas o consultas.
 
 I have choosed Auth0 as authentication method.
 
-# Steps followed from here: 
-https://www.youtube.com/watch?v=w6jnDjp5czg
-
 #  Encounters:
 Error:  
   => ERROR [3/5] COPY pakcage.json ./  0.0s   
@@ -48,9 +45,6 @@ To:
  npm install & build all again  
 
 # All working, let's add Compose.  
-
-For compouse I have  followed this tutorial:  
-https://www.youtube.com/watch?v=3xDAU5cvi5E  
 
 # Encounters:  
 
